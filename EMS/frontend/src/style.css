@@ -1,0 +1,208 @@
+
+.empImg {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 4px solid rgb(20, 193, 241);
+}
+
+/* Styles for login page background image */
+.loginPage {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.800), 
+      rgba(0, 0, 0, 0.800)
+    ),
+    url('Images/7.jpeg'); /* image used as background */
+  background-size: cover; /* Ensures image covers entire element */
+  height: 100vh; 
+  width: 100%;
+}
+
+/* Styles for login form - semi-transparent background and white text */
+.loginForm{
+  background-color: rgba(17, 169, 215, 0.2);
+  color: white;
+}
+
+/* Styles for nav link text and icons - white color */
+.nav-link, .nav-link span, .nav-link i {
+  color: white;
+}
+
+/* Styles for employee images - sets a fixed size and makes them round */
+.employee_image{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* border: 2px solid red !important; */
+
+}
+
+/* Styles for landing page - sets positioning and size */
+.landingpage {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Styles for landing page image - sets background image and size */
+.image.landingPage {
+  background: url('Images/lp.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+/* Styles for navbar on landing page - sets positioning */
+.landingpage_nav {
+  position: relative;
+  z-index: 10;
+}
+
+/* Styles for header content - sets positioning, color, and alignment */
+.header_content {
+  position: relative;
+  z-index: 10;
+  color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Styles for h1 and p in header content - sets font size */
+.header_content h1, .header_content p {
+  font-size: 2.5rem; /* h1 */
+  margin-bottom: 1rem; /* h1 */
+  font-size: 1.2rem; /* p */
+}
+
+/* Styles for button group - sets alignment */
+.btn_group {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Styles for dropdown color */
+.ddColor
+{
+  color: #fff; 
+}
+
+/* Styles for dropdown items - sets border and color between dropdown options */
+.my-custom-dropdown .dropdown-item {
+  border-bottom: 1px solid #fff; 
+  color: #fff;
+}
+
+.my-custom-dropdown .dropdown-menu {
+  top: 34px !important;
+
+}
+
+/* Styles for last dropdown option - removes border */
+.my-custom-dropdown .dropdown-item:last-child {
+  border-bottom: none;
+}
+
+/* Styles for overlay on landing (Start.jsx) page image - sets color, size, and opacity */
+.bg-overlay {
+  background: rgba(0, 0, 0, 0.600);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* Styles for dropdown toggle - sets background color, text color, padding, and font size */
+.my-custom-dropdown .dropdown-toggle {
+  background-color: #db4848 !important;
+  color: #fff !important;
+  padding: 6px 13px;
+  font-size: 11px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* Styles for dropdown toggle on hover and when dropdown is shown - changes background color */
+.my-custom-dropdown .dropdown-toggle:hover,
+.my-custom-dropdown.show .dropdown-toggle {
+  background-color: #008CBA !important;
+}
+
+/* Styles for dropdown item on hover - changes background color and text color */
+.my-custom-dropdown .dropdown-item:hover {
+  background-color: white !important;
+  color: #008CBA !important;
+}
+
+/* Styles for dropdown menu - sets background color */
+.my-custom-dropdown .dropdown-menu {
+  background-color:#008CBA;
+}
+
+/* Styles for navbar container - sets padding on top */
+.navbar-container {
+  padding-top: 8px; /* Adjust this value to move the navbar down i.e of landing page only*/
+}
+
+.sidebarColor {
+  color: rgb(47, 0, 255);
+}
+
+.iconSize
+{
+  font-size: 14px;
+}
+
+.custom-sidebar {
+  background-color:#0c8fa7; 
+  color: #fff;
+  
+}
+
+.dashboardBar {  /*color of dashboard topic i.e "Employee Management System" */
+  background-color:#025b6b; 
+  color: #fff;
+}
+
+.custom-container {
+  max-width: 400px !important; /* Adjust this value as needed */
+}
+
+
+/*Style of dashboard's three boxes (i.e Total employees, admins and salary) */
+.box-style {
+  background-color: #0c8fa7; 
+  color: #ffffff;
+  border-radius: 10px; 
+}
+
+
+.custom-margin {
+  margin-left: 7rem;
+  margin-top: 4rem;
+  margin-right: 7rem;
+}
+
+.custom-marginw {
+  margin-left: 8rem;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+
+.validationAlert {
+  color: red;
+  font-size: 10px;
+  margin-bottom: 3px;
+  margin-top: 2px;
+}
+
+
+
